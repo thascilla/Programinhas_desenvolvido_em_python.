@@ -1,0 +1,8 @@
+numero = float(input('Digite o seu numero..'))
+
+if (numero>0): 
+  print(f'numero positivo')
+elif (numero == 0 ):
+  print(f'numero digitado invalido') 
+else:
+  print(f'numero negativo')

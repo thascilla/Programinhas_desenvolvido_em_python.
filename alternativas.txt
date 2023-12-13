@@ -1,0 +1,13 @@
+print("responda a pergunta")
+print("alterantiva a")
+print("alterantiva b")
+print("alterantiva c")
+print("alterantiva d")
+
+alternativa= input('selecione sua alternativa.....')
+
+
+if (alternativa == 'c'):
+  print(f'sua resposta é {alternativa} e esta correta ')
+else:
+  print(f'sua resposta é {alternativa} e esta errada')

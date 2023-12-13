@@ -1,0 +1,9 @@
+valor_x= float(input('Digite o valor para X') );
+valor_y= float(input('Digite o valor para Y') );
+
+
+parte1=(valor_x + valor_y) 
+parte2=parte1 
+resultado = parte2 * parte1
+
+print(f'O resultado é {resultado}')

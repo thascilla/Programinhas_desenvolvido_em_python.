@@ -1,0 +1,32 @@
+resposta_b = input('Mora perto da vítima?')
+resposta_c = input('Já trabalhou com a vítima?')
+resposta_d = input('Telefonou para a vítima?')
+resposta_e = input('Esteve no local do crime?')
+resposta_a = input('Devia para a vítima?')
+
+pontos = 0 
+
+if resposta_a == 'sim':
+    pontos += 1 
+
+if resposta_b == 'sim':
+    pontos += 1
+
+if resposta_c == 'sim':
+    pontos += 1
+
+if resposta_d == 'sim':
+    pontos += 1
+
+if resposta_e == 'sim':
+    pontos += 1
+
+# Determina o nível de suspeição com base nos pontos
+if pontos == 5:
+    print("Você é considerado o assassino!")
+elif pontos >= 3:
+    print("Você é considerado cúmplice!")
+elif pontos >= 1:
+    print("Você é apenas um suspeito.")
+else:
+    print("Você está liberado da suspeita.")

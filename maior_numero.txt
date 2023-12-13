@@ -1,0 +1,7 @@
+numero_1 = int(input('Digite o seu primeiro numero..'))
+numero_2 = int(input('Digite o seu segundo numero..'))
+
+if (numero_1 > numero_2 ) : 
+  print(f'Seu numero é {numero_1}')
+else:
+  print(f'Seu numero é {numero_2}')

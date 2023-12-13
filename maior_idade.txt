@@ -1,0 +1,8 @@
+idade = int(input("Qual sua idade...."))
+
+
+maior_idade = idade >= 18
+menor_idade = idade < 18
+
+print(f'Menor idade {menor_idade} , Maior idade {maior_idade}')
+   
